@@ -14,6 +14,8 @@
 		B5EC0C6723313F9F0031C845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EC0C6523313F9F0031C845 /* LaunchScreen.storyboard */; };
 		B5EC0C6A23313F9F0031C845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC0C6923313F9F0031C845 /* main.m */; };
 		B5EC0C78233140640031C845 /* BenCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC0C77233140640031C845 /* BenCache.m */; };
+		B5EC0C842358C47B0031C845 /* NSArray+WMCSecure.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC0C802358C47B0031C845 /* NSArray+WMCSecure.m */; };
+		B5EC0C852358C47B0031C845 /* NSString+WMCSecure.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC0C822358C47B0031C845 /* NSString+WMCSecure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		B5EC0C6923313F9F0031C845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5EC0C76233140640031C845 /* BenCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenCache.h; sourceTree = "<group>"; };
 		B5EC0C77233140640031C845 /* BenCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenCache.m; sourceTree = "<group>"; };
+		B5EC0C802358C47B0031C845 /* NSArray+WMCSecure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WMCSecure.m"; sourceTree = "<group>"; };
+		B5EC0C812358C47B0031C845 /* NSString+WMCSecure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WMCSecure.h"; sourceTree = "<group>"; };
+		B5EC0C822358C47B0031C845 /* NSString+WMCSecure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMCSecure.m"; sourceTree = "<group>"; };
+		B5EC0C832358C47B0031C845 /* NSArray+WMCSecure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WMCSecure.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				B5EC0C5E23313F9B0031C845 /* ViewController.m */,
 				B5EC0C76233140640031C845 /* BenCache.h */,
 				B5EC0C77233140640031C845 /* BenCache.m */,
+				B5EC0C832358C47B0031C845 /* NSArray+WMCSecure.h */,
+				B5EC0C802358C47B0031C845 /* NSArray+WMCSecure.m */,
+				B5EC0C812358C47B0031C845 /* NSString+WMCSecure.h */,
+				B5EC0C822358C47B0031C845 /* NSString+WMCSecure.m */,
 				B5EC0C6023313F9B0031C845 /* Main.storyboard */,
 				B5EC0C6323313F9F0031C845 /* Assets.xcassets */,
 				B5EC0C6523313F9F0031C845 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 				B5EC0C6A23313F9F0031C845 /* main.m in Sources */,
 				B5EC0C78233140640031C845 /* BenCache.m in Sources */,
 				B5EC0C5C23313F9B0031C845 /* AppDelegate.m in Sources */,
+				B5EC0C852358C47B0031C845 /* NSString+WMCSecure.m in Sources */,
+				B5EC0C842358C47B0031C845 /* NSArray+WMCSecure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
